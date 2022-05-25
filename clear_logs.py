@@ -1,5 +1,5 @@
 import socket
-HOST = '10.9.17.218'
+HOST = 'xxxx'
 PORT = 22
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
