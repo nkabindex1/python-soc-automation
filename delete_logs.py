@@ -7,7 +7,8 @@
 from paramiko import SSHClient, AutoAddPolicy
 client = SSHClient()
 client.set_missing_host_key_policy(AutoAddPolicy())
-client.connect("10.9.17.218",  username="admin", password="P@ssw0rd", timeout=5) # we are connected we just cant send instructions
+host = "xxxx"
+client.connect(host,  username="xxxx", password="xxxx", timeout=5) # we are connected we just cant send instructions
 shell = client.invoke_shell()
 
 client.exec_command("im")
