@@ -1,0 +1,11 @@
+apname, ipaddr, env, link, uname, pswd
+ISIM Internal Appliance Primary,10.9.17.218,qa,admin,P@ssword
+ISIM Internal Appliance Secondary,10.9.17.219,qa,admin,P@ssword
+ISIM Internal Appliance Backup
+ISAM Internal Appliance Primary,10.9.17.220,qa,admin,P@ssword
+ISAM Internal Appliance Secondary,10.9.17.221,qa,admin,P@ssword
+ISIM External Appliance Primary,172.19.51.82,qa,admin,P@ssword
+ISIM External Appliance Secondary,172.19.51.83,qa,admin,P@ssword
+ISIM External Appliance Backup,172.19.51.84,qa,admin,P@ssword
+ISAM External Appliance Primary,172.19.51.85,qa,admin,P@ssword
+ISAM External Appliance Secondary,172.19.51.86,qa,admin,P@ssword

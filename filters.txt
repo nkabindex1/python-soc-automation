@@ -1,0 +1,7 @@
+index, descr,filter,cell
+0,Active Accounts,(&(erPersonStatus=0)(Uid=S*)),B4
+1,PPS Enrolled Accounts,(&(erLostPasswordAnswer=*)(erUid=S*)(erAccountStatus=0)),B5
+2,3rd Party Enrolments,(objectClass=sgExtOrg*),B9
+3,Passsword Self Service,(&(erUid=s*)(erPswdLastChanged=202203*)(!(erpasswordlastchangedby=erglobalid=2251451094207261474,ou=0,ou=people,erglobalid=00000000000000000000,ou=SARS,dc=sars))(!(erpasswordlastchangedby=erglobalid=3636261443533632627,ou=0,ou=people,erglobalid=00000000000000000000,ou=SARS,dc=sars))(!(erpasswordlastchangedby=erglobalid=5257726835634786289,ou=0,ou=people,erglobalid=00000000000000000000,ou=SARS,dc=sars))(!(erpasswordlastchangedby=erglobalid=1528512649986509803,ou=0,ou=people,erglobalid=00000000000000000000,ou=SARS,dc=sars))),B8
+4,Active DHA,(uid=H*),B6
+5,Active SAPS,(uid=P*),B7
