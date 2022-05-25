@@ -22,12 +22,7 @@ def scrape_isim(sites):
     else:
 
         results = None
-        driver_exe = r"C:\Users\s2028387\Documents\python\edgedriver_win64\msedgedriver.exe"
-        # options = Options()
-        # options.add_argument("--headless")
-        # options.add_argument("--window-size=1440, 900")
-        # driver = webdriver.Edge(driver_exe, options=options)
-        # driver.set_window_size(1440, 900)
+        driver_exe = r"C:\Users\s2028387\Documents\python\edgedriver_win64\msedgedriver.exe"s
         driver = webdriver.Edge(driver_exe)
 
 
